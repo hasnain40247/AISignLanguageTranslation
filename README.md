@@ -1,3 +1,4 @@
+# AI Sign Language Translation
 SSD is a single shot detector- meaning it only needs one shot at the
 image to analyze and calculate predictions. What it does is discretizes
 the output space of bounding boxes into a set of default boxes over
@@ -43,6 +44,7 @@ TFrecords and the “.pbtxt” file as well as modifying our batch sizes. Once
 fine-tuning is done, we use python code to run the mainmodel.py to train
 our models for about 5000 steps.
 
+## Images
 [![Untitled.png](https://i.postimg.cc/JzXHG5JJ/Untitled.png)](https://postimg.cc/9DWQkTLF)
 [![Untitled.png](https://i.postimg.cc/PJNPhWTC/Untitled.png)](https://postimg.cc/2LRz7BqY)
 [![Untitled.png](https://i.postimg.cc/8zTszgp8/Untitled.png)](https://postimg.cc/HVPT6K83)
