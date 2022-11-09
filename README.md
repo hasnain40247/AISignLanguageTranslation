@@ -9,9 +9,8 @@ prediction time, the network generates scores for the presence of each
 object category in each default box and produces adjustments to the
 box to better match the object shape
 
-[![Untitled.png](https://i.postimg.cc/YS4gfBJ4/Untitled.png)](https://postimg.cc/gwWnmQcd)
-
-[![Untitled.png](https://i.postimg.cc/9MdDJm1f/Untitled.png)](https://postimg.cc/KkYcYy6X)
+<img src="./ssd.png"/>
+<img src="./bound.png"/>
 
 Now, for implementing our training models, we have used jupyter notebook
 and the TensorFlow library. Now, that we’ve established the importance of
@@ -24,14 +23,14 @@ ensure different accuracies by processing the image in different resolutions.
 In both of our directories we create labels for our alphabets as well as
 phrases as shown below:
 
-[![Untitled.png](https://i.postimg.cc/7YYNGdYz/Untitled.png)](https://postimg.cc/grQh1Mhc)
+<img src="./snapshottokens.png"/>
 
 Once we are done with labels, we move into creating “.ptxt” file that stores
 all of these. This file will be used to access the labels later on.
 Before going to the next step, we make sure that all our training and testing
 images have been properly labelled:
 
-[![Untitled.png](https://i.postimg.cc/mDyQhNvV/Untitled.png)](https://postimg.cc/MMXcFRKj)
+<img src="./snapshothand.png"/>
 
 Once we are done labelling our images, we then use the
 “generatetfrecord.py” file to create TensorFlow records for both our training
@@ -45,7 +44,8 @@ fine-tuning is done, we use python code to run the mainmodel.py to train
 our models for about 5000 steps.
 
 ## Images
-[![Untitled.png](https://i.postimg.cc/JzXHG5JJ/Untitled.png)](https://postimg.cc/9DWQkTLF)
-[![Untitled.png](https://i.postimg.cc/PJNPhWTC/Untitled.png)](https://postimg.cc/2LRz7BqY)
-[![Untitled.png](https://i.postimg.cc/8zTszgp8/Untitled.png)](https://postimg.cc/HVPT6K83)
-[![Untitled.png](https://i.postimg.cc/kG7LtsB5/Untitled.png)](https://postimg.cc/MMr9Cy0k)
+<img src="./snapshothome.png" />
+
+<img src="./snapshot.png"/>
+
+<img src="./thanks.png"/>
